@@ -1,5 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Move Easy LR</string>
+    <string name="app_name">MovEasyLR</string>
+
+    <string-array name="menu_principal_array">
+        <item>Légende</item>
+        <item>Paramètres</item>
+        <item>Aide et mentions légales</item>
+        <item>Quitter</item>
+
+
+
+    </string-array>
+
+    <string-array name="legend_icons">
+        <item>@drawable/ic_place_red_24dp</item>
+        <item>@drawable/ic_directions_car_blue_24dp</item>
+        <item>@drawable/parkingrelais</item>
+        <item>@drawable/parkinggratuit</item>
+        <item>@drawable/parkingpayant</item>
+        <item>@drawable/parkingpayantvert</item>
+        <item>@drawable/parkingpayantorange</item>
+        <item>@drawable/parkingpayantrouge</item>
+        <item>@drawable/horodateurvert</item>
+        <item>@drawable/horodateurorange</item>
+        <!--<item>@drawable/horodateurrouge</item>-->
+        <item>@drawable/parkinggratuit_favori</item>
+
+    </string-array>
+    <string-array name="legend_array">
+        <item>Votre position</item>
+        <item>Votre voiture</item>
+        <item>Parking Relais</item>
+        <item>Parking gratuit</item>
+        <item>Parking payant</item>
+        <item>Disponibilité > 80%</item>
+        <item>Disponibilité &lt; 80% </item>
+        <item>Complet </item>
+        <item>Zone verte</item>
+        <item>Zone orange</item>
+        <!--<item>Horodateur rouge</item>-->
+        <item>Favori</item>
+
+    </string-array>
+
+    <string-array name="layers_array">
+        <item>Tous les Parkings</item>
+        <item>Parkings Gratuits</item>
+        <item>Parkings Payants</item>
+        <item>Parkings Relais</item>
+        <item>Horodateurs</item>
+        <item>Carte seule</item>
+    </string-array>
+
+    <string-array name="maps_array">
+        <item>Carte OSM</item>
+        <item>Vue Aérienne</item>
+    </string-array>
+
+    <string name="layers_header">SELECTION</string>
+    <string name="maps_header">TYPE DE CARTE</string>
+
+    <string name="center_title">Choisissez le point de centrage du bouton</string>
+    <string name="center_lr">La Rochelle</string>
+    <string name="center_car">Votre Voiture</string>
+    <string name="center_position">Votre Position</string>
+
+
+    Choisissez le point sur lequel la carte sera centrée
+
+    // Textes de l'aide
+    <string name="splash_help">Menus > Faites glisser votre doigt depuis les bords de l\'écran</string>
+
+    <string name="help1">Aide > Interface</string>
+    <string name="help1_item1">Menu Principal - Faites glisser votre doigt depuis le bord gauche de l\'écran</string>
+    <string name="help1_item2">Menu Sélection - Faites glisser votre doigt depuis le bord droit de l\'écran</string>
+    <string name="help1_item3">Raccourcis - Boutons en bas de l\'écran</string>
+
+    <string name="help2">Aide > Menu Principal</string>
+    <string name="help2_item1">Légende (touchez pour développer) - Signification des icônes de la carte</string>
+    <string name="help2_item4">Paramètres</string>
+    <string name="help2_item5">Aide</string>
+    <string name="help2_item6">Quitter</string>
+
+    <string name="help3">Aide > Menu Sélection</string>
+    <string name="help3_item1">Sélection: permet de sélectionner soit tous les parkings de La Rochelle ou un type de parking particulier(Gratuit,Payant ou Parking Relais) ou seulement afficher la carte seule.</string>
+    <string name="help3_item2">Type de carte: permet d\'afficher une carte satellite ou une carte relief</string>
+
+    <string name="help4">Aide > Raccourcis</string>
+    <string name="help4_item1">Voiture - Marquez la position de votre voiture à partir de votre position actuelle</string>
+    <string name="help4_item2">Position - Afficher votre position actuelle grâce au GPS</string>
+    <string name="help4_item3">Favoris - Ajoutez les parkings favoris. Un appui long permet d\'effacer tous les favoris avec confirmation.</string>
+    <string name="help4_item4">Parkings - Affichez tous les parkings</string>
+    <string name="help4_item5">Centrer - Centrer la carte. Un appui long permet de choisir le centrage par défaut(Ville, votre position ou votre voiture).</string>
+
+    <string name="help5">Aide > Paramètres</string>
+    <string name="help5_item1">Intervalle Donnée Auto(secondes): Permet de régler l\'intervalle en secondes entre chaque recherche de données de parking(Si Donnée Auto = ON).</string>
+    <string name="help5_item2">Donnée Auto On/Off: Activer/Désactiver la recherche automatique de données sur les parkings.</string>
+    <string name="help5_item3">Position Voiture On/Off: Activer/Désactiver l\'affichage de la position de votre voiture(Conserve la position de la voiture).</string>
+
+    //Textes des paramètres
+    <string name="param_title">PARAMETRES</string>
+    <string name="param_switch_txt">Données Auto On/Off</string>
+    <string name="param_car_txt">Position Voiture On/Off</string>
+    <string name="param_timer_txt">Intervalle Données Auto (secondes)</string>
+    <string name="param_map_choice_OSM">Carte OpenStreetMap</string>
+    <string name="param_map_choice_sat">Carte Satellite</string>
+
+    //Textes techniques
+    <string name="pb_reception">Problème dans la réception des données</string>
+    <string name="reception">Actualisation des données de disponibilité des parkings...</string>
+
+    // Messages Dialogues
+    <string name="gps_disabled">Le GPS n\'est pas activé, voulez-vous accéder aux réglages ?</string>
+    <string name="car_alert">Voulez-vous vraiment définir une nouvelle position pour votre voiture ?</string>
+    <string name="favoris_alert">Voulez-vous vraiment supprimer tous vos favoris ?</string>
+    <string name="reglages">Réglages</string>
+    <string name="valider">Valider</string>
+    <string name="annuler">Annuler</string>
+
+    // Fenêtre détails
+    <string name="non_dispo">non disponible</string>
+    <string name="places_label">Places : </string>
+    <string name="hourly_label">Horaires : </string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_display_details_parking">displayDetailsParking</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>

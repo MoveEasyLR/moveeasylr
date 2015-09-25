@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="blue" type="color">#3E6D97</item>
+    <item name="transparent_blue_light" type="color">#303E6D97</item>
+    <item name="transparent_blue" type="color">#603E6D97</item>
+    <item name="transparent_blue2" type="color">#AA3E6D97</item>
+    <item name="black" type="color">#000000</item>
+    <item name="white" type="color">#FFFFFF</item>
+    <item name="transparent_white" type="color">#44FFFFFF</item>
+    <item name="red" type="color">#BB2222</item>
+
+</resources>

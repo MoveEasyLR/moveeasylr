@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:textSize="@dimen/menu_items_text_size"
+    android:gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:textColor="#fff"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"/>

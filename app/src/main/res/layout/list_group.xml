@@ -1,0 +1,13 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lblListHeader"
+    android:layout_width="wrap_content"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:layout_marginLeft="8dp"
+    android:gravity="left"
+    android:paddingLeft="20dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:textSize="@dimen/menu_title_text_size"
+    android:textStyle="bold"
+    android:background="@android:color/transparent"/>

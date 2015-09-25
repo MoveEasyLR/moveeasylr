@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/helpTitle1"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/title_height"
+            android:textSize="@dimen/title_text_size"
+            android:layout_marginLeft="10dp"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:text="@string/help1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/closeButtonHelp"
+            android:gravity="center_vertical"
+            android:src="@drawable/ic_close_white_24dp"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/helpTitle1"
+            android:layout_alignEnd="@+id/helpTitle1"
+            android:background="#00000000"/>
+    </RelativeLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/help_text_marg_bot"
+        android:weightSum="1">
+
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/webViewAide"
+            android:layout_weight="1.13" />
+    </LinearLayout>
+
+</LinearLayout>

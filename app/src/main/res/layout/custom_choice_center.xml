@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16dp"
+        android:background="@color/white"
+        android:textColor="@color/blue"
+        android:text="@string/center_title"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dialogButtonCenterMap"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="@string/center_lr"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/blue"
+            android:layout_weight="1"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/dialogButtonCenterCar"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="@string/center_car"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/blue"
+            android:layout_weight="1"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/dialogButtonCenterSelf"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="@string/center_position"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/blue"
+            android:layout_weight="1"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
